@@ -59,6 +59,34 @@ body{
 }
 .callAction{
   flex: 1;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.callAction .container{
+  background: #3882f6;
+  border-radius: 10px;
+  display: flex;
+  justify-content: center;
+  width: 700px;
+}
+.callAction .container h2{
+  color: #fff;
+}
+.callAction .container p{
+  color: #FAF9F6;
+}
+.callAction .container div:last-child{
+  margin-left: 100px;
+  align-self: center;
+}
+.callAction .container button{
+  border: 2px solid #fff;
+  text-decoration: none;
+  color: #fff;
+  padding: 10px 20px;
+  border-radius: 10px;
+  background: #3882f6;
 }
 .footer{
   background: #1f2937;
