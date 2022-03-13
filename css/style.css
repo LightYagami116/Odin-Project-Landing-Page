@@ -8,11 +8,61 @@ body{
   background: #1f2937;
   flex: 1;
 }
+.hero .navbar{
+  display: flex;
+  justify-content: center;
+  width: 1000px;
+  margin-left: auto;
+  margin-right: auto;
+}
+.hero .navbar h1{
+  font-size: 24px;
+  color: #f9faf8;
+}
+.hero .navbar ul{
+  list-style-type: none;
+  display: flex;
+  align-items: center;
+  margin-left: auto;
+}
+.hero .navbar ul li{
+  color: #e5e7eb;
+  font-size: 18px;
+}
+.hero .navbar ul li:nth-child(2){
+  margin: 0 10px;
+}
+.hero .main{
+  /*width: 1000px;*/
+  display: flex;
+  flex-direction: row;
+  padding: 60px 0;
+}
+.left{
+  width: 400px;
+  color: #e5e7eb;
+  margin-right: 140px;
+}
+.hero .main .left h1{
+  font-size: 48px;
+  font-weight: bolder;
+  color: #f9faf8;
+  text-align: left;
+  margin-top: 0;
+}
+.hero .main .left button{
+  border: none;
+  padding: 10px 20px;
+  border-radius: 10px;
+  background: #3882f6;
+  color: #fff;
+}
 .main{
   flex: 1;
   display: flex;
   flex-direction: column;
   justify-content: center;
+  padding: 40px 0;
 }
 .main h1{
   text-align: center;
@@ -50,18 +100,23 @@ body{
   flex-direction: column;
   justify-content: center;
   align-items: center;
+  padding: 60px 0;
 }
 .quote p:first-child{
   margin: 0 400px;
 }
 .quote p:last-child{
   margin: 5px 0 0 40px;
+  font-size: 20px;
+  font-weight: bold;
+  font-style: normal;
 }
 .callAction{
   flex: 1;
   display: flex;
   justify-content: center;
   align-items: center;
+  padding: 40px 0;
 }
 .callAction .container{
   background: #3882f6;
@@ -72,9 +127,11 @@ body{
 }
 .callAction .container h2{
   color: #fff;
+  margin-bottom: 0;
 }
 .callAction .container p{
   color: #FAF9F6;
+  margin-top: 0;
 }
 .callAction .container div:last-child{
   margin-left: 100px;
